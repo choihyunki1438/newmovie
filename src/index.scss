@@ -1,0 +1,131 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.root-wrap{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header{
+  .header-container{
+    background-color: rgba($color: #051431, $alpha: 1.0);
+  }
+
+  .header-wrap{
+    height: 64px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home{
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+  }
+
+  .header-nav-item{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  // img{
+  //   src:url('./imgaes/logo.png')
+  // }
+}
+
+.page-container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 0;
+
+}
+
+detail-container{
+  top: 100px;
+  bottom: 100px;
+  left: 200px;
+  right: 200px;
+  padding: 10px;
+  max-width: 1000px;
+  max-height: 1500px;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  display: flex;
+  background-color: rgb(60, 62, 63);
+
+  .detail-page{
+    left: 20px;
+  }
+
+  .information-container{
+    padding: 30px;
+    color: white;
+  }
+
+
+
+}
+
+
+moviecontainer {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  width: 380px;
+  height: 400px;
+  background-color: #1e1b26;
+  margin: 60px auto 0 auto;
+  box-shadow: 5px 5px 115px -14px black;
+  border-radius: 4px;
+  color: white;
+
+  .movie-image {
+    width: 90%;
+    height: 250px;
+    z-index: 111 !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+  }
+    
+  .movie-title {
+    padding: 0px 12px;
+    text-align: justify;
+    overflow: hidden;
+    h2 {
+      color: white;
+    }
+  }
+
+  .movie-summary-row {
+    h5 {
+      color: white;
+    }
+    width: 98%;
+  }
+
+  .movie-likes {
+    color: #fe4141;
+    font-size: 14px;
+    margin-right: 4px;
+    position: relative;
+    float: left;
+    line-height: 1;
+  }
+
+}
+
+.slick-slider{
+  padding: 10px;
+  align-items: center;
+}
