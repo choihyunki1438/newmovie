@@ -1,3 +1,4 @@
-import API_KEY from "../../.env";
+import API_KEY from "`./.env";
 
 export const apiKEY = API_KEY
+
