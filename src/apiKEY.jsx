@@ -1,2 +1,1 @@
-const ApiKey = process.env.ApiKey
-
+// const apiKEY = process.env.API_KEY
